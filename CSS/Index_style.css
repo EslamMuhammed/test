@@ -1,0 +1,366 @@
+body
+{
+    font-family: "segio ui light";
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.Project-color
+{
+    color: #f25454;
+}
+
+.p-text-color
+{
+    color: #9FA5AF;
+}
+
+
+
+
+#home
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.2)),
+     url(../IMG/Home/slideshow-2.jpg) ;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.home_Content span:hover{
+    background-color: #f25454;
+}
+
+
+
+.h-10
+{
+    height: 0.4rem;
+}
+
+
+.behind
+{
+    color: #9fa5af3a;
+    font-size: 4rem;
+}
+
+.title-border::after
+{
+    content: "";
+    border-bottom: 0.1rem solid black;
+    width: 5%;
+    position: absolute;
+    top: 50;
+}
+
+.border-hover:hover .title-border::after
+{
+    width: 10%;
+}
+.arrow-postion
+{
+    position: absolute;
+    top: -28;
+    left: 47%;
+    font-size: 25px;
+    padding: 1rem 1.2rem;
+    background-color: #f25454;
+    border-radius: 50%;
+    opacity: 0.5;
+    
+}
+
+.arrow-postion a
+{
+    color: whitesmoke;
+}
+
+
+
+
+
+.Project-color-hover
+{
+    background-color: rgba(242, 84, 84, 0.85);
+}
+
+#footer-click a
+{
+    text-decoration: none;
+    color: #9FA5AF;
+}
+
+#footer-click a:hover
+{
+    color: #f25454;
+
+}
+
+
+
+#contact-border::after
+{
+    content: "";
+    border-bottom: 0.1rem solid black;
+    width: 50%;
+    position: absolute;
+    top: 50;
+}
+
+
+
+.contact-hover h4:hover
+{
+    color: #f25454;
+
+}
+
+.footer-border a
+{
+    border: 0.1rem solid #9FA5AF;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    border-radius: 10%;
+    font-size: 14px;
+}
+
+.bg-footer
+{
+    background-color: #1A1A1A;
+}
+
+
+body i:hover
+{
+    color: #f25454;
+}
+
+#Services h3:hover 
+
+{
+    color: #f25454;
+}
+
+#Services i , #Contact i
+{
+    color: #f25454;
+}
+
+#footer-click 
+{
+    text-decoration: none;
+}
+
+.team-hover img
+{
+    transition: all 1s;
+}
+.team-hover:hover img
+{
+    transform: scale(1.1 , 1.1);
+}
+
+.bg-team a
+{
+    opacity: 0;
+}
+.bg-team:hover a{
+    opacity: 1 !important;
+}
+.bg-team:hover 
+{
+    color: red;
+    background-color: rgba(242, 84, 84, 0.85);
+}
+.card-body:hover h5
+{
+    color: #f25454;
+}
+
+
+#home a
+{
+    color: white;
+}
+
+#home li:hover a
+{
+    color: #f25454;
+}
+
+.contact-border::after
+{
+    content: "";
+    width: 100%;
+    border-bottom: .05rem solid #9fa5af4d;
+    position:absolute;
+    top: 4;
+
+}
+
+
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(1)
+{
+  
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-1.png);
+    background-position: center center;
+    background-size: cover;
+}
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(2)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-2.png);
+    background-position: center center;
+    background-size: cover;
+}
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(3)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-3.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(4)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-4.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(5)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-5.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(6)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-6.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(7)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-7.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(8)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-8.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+#slider-clinet .carousel-indicators [data-bs-target]:nth-child(9)
+{
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../IMG/Client/client-9.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+.home-side-icon {
+    background-color:#1A1A1A;
+    border-radius: 1px;
+    position: fixed;
+    top: 180px;
+    left: 0px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.box {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: 30px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.square {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: mouseBox;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mouseBox {
+    from {
+        top: 1%;
+        left: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    to {
+        top: 20px;
+        left: 10px;
+    }
+}
+
+
+
+.home-con
+{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+
+
+.carousel-caption h5
+{
+    color: black;
+
+}
+
+.carousel-caption p
+{
+    color:#9FA5AF;
+
+}
